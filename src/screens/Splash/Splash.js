@@ -7,7 +7,7 @@ const Splash = props => {
 
   useEffect(() => {
     setTimeout(() => {
-      navigate('Login');
+      navigate('Home');
     }, 2300);
   });
 

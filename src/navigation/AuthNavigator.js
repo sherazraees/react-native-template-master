@@ -1,6 +1,6 @@
 import React from 'react';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import {Splash, Login, Registration} from '../screens';
+import {Splash, Login, Registration, Home} from '../screens';
 
 const Stack = createNativeStackNavigator();
 
@@ -10,6 +10,7 @@ export default function AuthStackNavigator() {
       <Stack.Screen name="Splash" component={Splash} />
       <Stack.Screen name="Login" component={Login} />
       <Stack.Screen name="Registration" component={Registration} />
+      <Stack.Screen name="Home" component={Home} />
     </Stack.Navigator>
   );
 }
